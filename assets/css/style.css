@@ -1,0 +1,42 @@
+body {
+    background-image: url("https://walker-web.imgix.net/cms/Gradient_builder_2.jpg?auto=format,compress&w=1920&h=1200&fit=max&dpr=1.5");
+    background-repeat: repeat;
+  }
+  
+  .container {
+    background: rgba(22,22,22,0.8);
+    margin-top: 50px;
+    border-radius: 25px;
+    border: 15px double #ff5252;
+    padding: 0 40px 20px 40px;
+  }
+  
+  .jumbotron {
+    padding-top: 100px;
+    padding-bottom: 75px;
+  }
+  
+  .train-header {
+    background-color: #a56262;
+  }
+  
+  .form-data {
+    background-color: #ce9494;
+  }
+  
+  .form-bg {
+    background-color: #8092b3;
+  }
+  
+  .form-group {
+    margin: 30px;
+  }
+  
+  .btn {
+    margin-left: 40px;
+    margin-bottom: 60px;
+    background-color: rgb(25, 39, 231);
+    color: rgb(216, 215, 255);
+    padding: 10px 25px;
+  }
+  

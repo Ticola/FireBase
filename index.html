@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>All Aboard!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/locale/af.js" integrity="sha256-I5ZXO8KcMnqNkrXU7baGig70nATYjNDnxxA2d40PcR8="
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="jumbotron-fluid">
+
+            <h1 class="text-center">The Main Train</h1>
+
+        </div>
+        <div class="container form-data">
+            <div class="row p-5">
+                <div class="col-md-12 spaceschedule">
+                    <table class="table" id="space-table">
+                        <thead class="train-header px-5">
+                            <tr>
+                                <th scope="col">Train Name</th>
+                                <th scope="col">Destination</th>
+                                <th scope="col">Frequency (min)</th>
+                                <th scope="col">Next Arrival</th>
+                                <th scope="col">Minutes Away</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <!-- Dynamic Input added here -->
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row mb-5 px-5">
+                <div class="col-md-12">
+                    <div class="form-bg mx-auto">
+
+                        <h3 class="form-title p-3">Enter Train Info</h3>
+
+                        <form role="form" class="mx-auto">
+                            <div class="form-group">
+                                <label for="trainname-input">Train Name:</label>
+                                <input class="form-control" id="trainname-input" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label for="destination-input">Destination:</label>
+                                <input class="form-control" id="destination-input" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label for="age-input">First Train Time (HH:MM - military time):</label>
+                                <input class="form-control" id="first-train-input" type="number">
+                            </div>
+                            <div class="form-group">
+                                <label for="comment-input">Frequency (min)</label>
+                                <input class="form-control" id="train-freq-input" type="number"></textarea>
+                            </div>
+                            <button class="btn" id="add-user" type="submit">Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <script src="assets/javascript/app.js"></script>
+
+
+</body>
+
+</html>
