@@ -37,7 +37,7 @@ $("#add-user").on("click", function (event) {
 
 });
 
-database.ref().on("child_added", function (childSnapshot, prevChildKey) {
+database.ref().on("child_added", function (childSnapshot) {
 
     // console.log(childSnapshot.val());
 
@@ -63,5 +63,6 @@ database.ref().on("child_added", function (childSnapshot, prevChildKey) {
 
 
     $("#space-table > tbody").append("<tr><td>" + trainName + "</td><td>" + trainDestination + "</td><td>" + trainFreq + "</td><td>" + nextTrainFormatted + "</td><td>" + minAway + "</td></tr>");
+
 
 });
